@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+ul{
+    background-color: hsl(180, 12%, 79%);
+
+}
+
+li{
+    align-items: center;
+    background-color: rgb(109, 142, 131);
+}
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.container{
+    text-align: center;
+}
+
+/* Estilos para el contenedor de preguntas */
+#questions-section {
+    max-width: 600px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar horizontalmente */
+    padding: 20px; /* Espacio alrededor del contenedor */
+}
+
+/* Estilos para cada pregunta */
+.question {
+    margin-bottom: 20px; /* Espacio entre cada pregunta */
+    border: 1px solid #ccc; /* Borde alrededor de cada pregunta */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px; /* Espacio interno de la pregunta */
+}
+
+/* Estilos para los botones de respuesta */
+.question button {
+    display: block; /* Convertir los botones en bloques */
+    width: 100%; /* Ancho completo del contenedor */
+    margin-bottom: 10px; /* Espacio entre cada botón */
+    padding: 10px; /* Espacio interno del botón */
+    background-color: #f0f0f0; /* Color de fondo */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor al pasar el ratón */
+}
+#instructions-section {
+    text-align: center;
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#instructions-section button {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #51e856;
+    text-align: center;
+}
+
+
+.question button.correct {
+   /* background-color: #5cb85c; /* Color de fondo para la respuesta correcta */
+    color: rgb(7, 6, 6); /* Color de texto para la respuesta correcta */
+}
+
+/* Estilos para los botones de respuesta al pasar el ratón */
+.question button:hover {
+    background-color: #e0e0e0; /* Cambiar color de fondo al pasar el ratón */
+}
+
+
+#questions-section {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align : center;
+}
+
+.respuestas_c {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+
+
+#after-qs button {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #51e856;
+    text-align: center;
+}
+#after-qs {
+    text-align: center;
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 40px; /* Agregar margen inferior para evitar superposición con el footer */
+}
+
+

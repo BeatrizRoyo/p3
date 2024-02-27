@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheFestivalZone </title>
+    <link  rel="stylesheet" href="paginaweb.css"
+    <style>
+       
+    </style>
+</head>
+<body>
+    <h1 class= "titulo">The Festival Pack</h1>
+    <h2 class = "subtitulo">En esta web analizamos los mejores festivales de España</h2>
+<div>
+    <nav>
+    <ul class="contenedor">
+  <li><a href="#Inicio">Inicio</a></li>
+  <li><a href="#tablaFestis">Todos los festivales</a></li>
+  <li><a href="#Filtro">Filtrar </a></li>
+  <li><a href="#contacto">Contactanos</a></li>
+ </ul>
+
+ 
+ </div>
+</nav>
+    <section id = "Inicio">
+        <blockquote>¡Bienvenidos a nuestra página web dedicada a los <strong>mejores</strong> festivales de música en <Strong>España!</Strong> Sumérgete en el vibrante mundo de la escena musical española mientras exploramos los eventos más destacados que llenan el país con ritmo, energía y diversión. Desde la euforia de la <Strong>música electrónica</Strong> hasta la pasión del <Strong>flamenco</Strong> y el encanto de la música <Strong>indie</Strong>, te llevaremos en un viaje a través de los festivales más emocionantes que España tiene para ofrecer. Prepárate para descubrir artistas de renombre mundial, escenarios impresionantes y una atmósfera única que convierte cada festival en una <Strong>experiencia inolvidable</strong>. ¡Únete a nosotros y déjate llevar por el ritmo de España!</blockquote>
+            <div class = "ruleta">
+                <p class = "textorule">¡Juega a probar suerte con nuestro juego de preguntas y entra en el sorteo de dos entradas dobles para el festival que elija!
+                    <a href = "inicio.html"> Quiero Jugar</a>
+                    <p class = "imgsorteo">
+                    <img src = "https://buen-saber.com/wp-content/uploads/2021/03/juegos-de-preguntas-y-respuestas.jpg" width = 100px;>
+                </p>
+                </p>
+            
+        
+            <div id = "piramide">
+        <div id="e1">Nuestros Patrocinadores</div>
+            <div id="e2">Negrita</div>
+            <div id="e3">Red Bull</div>
+            <div id="e4">Tanqueray</div>
+            
+        </div>
+        <div class = "image-container">
+        <p> <img src = "https://www.alcodisonline.es/pub/media/catalog/product/cache/ecd051e9670bd57df35c8f0b122d8aea/1/_/ron-negrita-375-i1-1631.jpg"alt = "Ron negrita" style = width:70px;></p>
+        <p> <img src = "https://bebidasserrano.com/251-large_default/gin-beefeater-70cl-40.jpg" width = 60px;></p>
+        <p> <img src = "https://www.pngall.com/wp-content/uploads/13/Red-Bull-Can-PNG-File.png" width = 60px;></p>
+        <p> <img src = "https://www.bodeboca.com/sites/default/files/spirit/2022-10/bot-tanqueray-london-drygin-70cl-nueva.jpg" width = 60px;></p>
+    </div>
+    </section>
+
+    
+<section id="Filtro" >
+
+    <table border="1" id = tipos2 >
+        <tr>
+          <th>Festival</th>
+          <th>Ciudad </th>
+          <th>Rango Edad</th>
+          <th>Fecha</th>
+          <th>Duración</th>
+          <th>Tipo de Música</th>
+        </tr>
+        <tr>
+        <td>
+          <a href="madCool.html">Mad Cool</a></td>
+          <td>Madrid</td>
+          <td>Todas las edades</td>
+          <td>10,11,12,13 Julio</td>
+          <td>4 días</td>
+          <td>Pop</td>
+        </tr>
+        <tr>
+          <td>Alma Festival Madrid</td>
+          <td>Madrid</td>
+          <td>Todas las edades</td>
+          <td>30/05 al17/06</td>
+          <td>Medio mes</td>
+          <td>Indie/Española</td>
+        </tr>
+        <tr>
+          <td>Bombastic Madrid</td>
+          <td>Madrid</td>
+          <td>+16</td>
+          <td>16-17 Junio</td>
+          <td>Dos días</td>
+          <td>Comercial/Pop/Española</td>
+          </tr>
+          <tr>
+            <td>Negrita Music Festival</td>
+            <td>Alicante</td>
+            <td>+16</td>
+            <td>29-30 Marzo</td>
+            <td>Dos días</td>
+            <td>Comercial/Española/Reggaeton</td>
+          </tr>
+      
+      </table>
+    <div class = "tablitas">
+    <p>
+        <label for="TipoDeMusica_id">Tipo de Musica:</label><br>
+        <select name="Musica" id="musica" required>
+            <option value="Electronica">Electrónica</option>
+            <option value="Indie">Española</option>
+            <option value="Flamenco">Pop</option>
+        </select>
+        </p>
+
+        <p>
+            <label for="ciudad_id">Ciudad:</label><br>
+            <select name="ciudad" id="ciudad" required>
+                <option value="Alicante">Alicante</option>
+                <option value="Madrid">Madrid</option>
+                <option value="Barcelona">Barcelona</option>
+                <option value = "Ibiza">Ibiza</option>
+                <option value = "Malaga">Málaga</option>
+
+            </select>
+            </p>
+
+            <p>
+                <label for="edad_id">Rango de edad:</label><br>
+                <select name="edad" id="edadRango" required>
+                    <option value="jóvenes">jovenes</option>
+                    <option value="Adultos">adultos</option>
+                    <option value="Inserso">viejos</option>
+                </select>
+                </p>
+
+                <p>
+                    <label for="Fecha">Fecha:</label><br>
+                    <select name="Fecha" id="fecha" required>
+                        <option value="Verano">Verano 2024</option>
+                        <option value="Primavera">Primavera 2024</option>
+                        <option value="Flamenco">Invierno 2024</option>
+                    </select>
+                    </p>
+                </div>
+
+        <div class="resultado">
+                <h2>Resultados de la búsqueda:</h2>
+                <ul id="festivales">
+                    <!-- Aquí se mostrarán los resultados de la búsqueda -->
+                </ul>
+        </div>
+    </section>
+
+    <section id="tablaFestis">
+    <table border="1", >
+  <tr>
+    <th>Madrid</th>
+    <th>Alicante </th>
+    <th>Bilbao</th>
+    <th>Barcelona</th>
+    <th>Ibiza</th>
+    <th>Malaga</th>
+  </tr>
+  <tr>
+    <td>Mad Cool Festival</td>
+    <td>Negrita Music Festival</td>
+    <td>Bilbao BBK lve</td>
+    <td>Housy mestiza</td>
+    <td>Circoloco</td>
+    <td>ElrowMalaga</td>
+  </tr>
+  <tr>
+    <td>Efervescence</td>
+    <td>Spring Festival</td>
+    <td>Esférica Roja</td>
+    <td>Utopía</td>
+    <td>Elrow</td>
+    <td>Marenostrum Fuengirola</td>
+  </tr>
+  <tr>
+    <td>Deep Purple</td>
+    <td>Bombastic</td>
+    <td>Eladio Carrion</td>
+    <td>Brunch in the Park</td>
+    <td>Amnesia</td>
+    <td>Reggaeton Beach festival</td>
+
+</table>
+<div class = aftermovies>
+    <h3>"The aftermovies"</h3>
+</div>
+<div class = videosafters>
+    <p class = madcool>
+        Mad cool
+        <video src="https://rr5---sn-5hne6nzd.googlevideo.com/videoplayback?expire=1707690017&ei=wfPIZaizB9ua7OsPpbm0gAg&ip=180.76.13.11&id=o-APTY5jRTnfhD5zTwumD1kugq_7itiCbOfg07S_C5tAHo&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&vprv=1&svpuc=1&mime=video%2Fmp4&gir=yes&clen=20170597&ratebypass=yes&dur=222.795&lmt=1698842040328946&fexp=24007246&c=ANDROID&txp=5538434&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cvprv%2Csvpuc%2Cmime%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRAIgZ9jjz5MtJxZZzpIK-mD3ojFahv87iovfA-3F3FD_yvgCIC2DEh07dZ4-DXQSbB5OqhrtnI2Xx_rsCIm_ErW9I_8y&redirect_counter=1&cm2rm=sn-i3bdk76&req_id=4c238052581ba3ee&cms_redirect=yes&mh=0v&mip=92.191.218.197&mm=34&mn=sn-5hne6nzd&ms=ltu&mt=1707667948&mv=m&mvi=5&pl=22&lsparams=mh,mip,mm,mn,ms,mv,mvi,pl&lsig=APTiJQcwRAIgDH2PUQXf37mLzh9ZIlveRGCwxtNPuua2BOKxOsR5fQ8CIFj6-GhBMAFqUXuUsiO1cL4Wd3iyBxDy3GQ0LX8pNgFS" controls></video>
+        </p>
+    <p class = bombastic>
+        Bombastic Alicante
+        <video src="https://rr1---sn-5hne6nzs.googlevideo.com/videoplayback?expire=1707691009&ei=offIZZb0N7Gws8IPhtmG6AU&ip=180.76.13.11&id=o-AEFr9GqMoCSVhk4bNDjt0M--I93oI8wotzHlcmL_loWf&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&vprv=1&svpuc=1&mime=video%2Fmp4&gir=yes&clen=28450199&ratebypass=yes&dur=363.554&lmt=1700088570210587&fexp=24007246&c=ANDROID&txp=6219224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cvprv%2Csvpuc%2Cmime%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRQIgT6SgfjQ3RcA4Tu67I2d4F9PDfnS3SAFS7gVNRtySi1ICIQDd-DLOedkDsdjGyugvB5CE7tXzaSIR6wgwShtSL0eY2Q%3D%3D&redirect_counter=1&cm2rm=sn-i3bde76&req_id=1537e2d4787aa3ee&cms_redirect=yes&mh=ls&mip=92.191.218.197&mm=34&mn=sn-5hne6nzs&ms=ltu&mt=1707669151&mv=m&mvi=1&pl=22&lsparams=mh,mip,mm,mn,ms,mv,mvi,pl&lsig=AAO5W4owRQIhAOGrZr5alIxydYhKi7wdcyEL-chTHFxqtxlTfd_jFvdMAiBr_ErDibNfYI-ViyzoU8gY_5VGCu3OGJUmH8HXNLfj5g%3D%3D" controls></video>       
+    </p>
+    <p class = bbklive>
+        BBK live Bilbao
+        <video src="https://rr1---sn-5hne6n6e.googlevideo.com/videoplayback?expire=1707691070&ei=3vfIZZOHC7CV7OsPzeW_6Aw&ip=180.76.13.11&id=o-AFvfxhEjXd8UM3raQiwIIkXqO9WzLpytNF69Evg0PHmE&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&vprv=1&svpuc=1&xtags=heaudio%3Dtrue&mime=video%2Fmp4&cnr=14&ratebypass=yes&dur=174.614&lmt=1699004388490201&fexp=24007246&c=ANDROID&txp=5318224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cvprv%2Csvpuc%2Cxtags%2Cmime%2Ccnr%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRQIgfoQirDlrk2TeG1_j_94O2OMmk04sCW7naYxE8txynn4CIQD0a9dlGQj81lHuFHor4Sp-10gQcuuiq5_QNWXZlRbfCA%3D%3D&redirect_counter=1&cm2rm=sn-i3bdk7z&req_id=4e592c4cefe5a3ee&cms_redirect=yes&mh=ol&mip=92.191.218.197&mm=34&mn=sn-5hne6n6e&ms=ltu&mt=1707669151&mv=m&mvi=1&pl=22&lsparams=mh,mip,mm,mn,ms,mv,mvi,pl&lsig=APTiJQcwRQIhAIXBFGUOvb9eoNHA8UfEx2On9aSMnANg_-1Nw963rNhTAiB91i08MxTqbO8FGqQ2baLZf6O74u9M8fSQ6F853PJKHw%3D%3D" controls></video>       
+    </p>
+    
+    <p class = circoloco>
+        circoloco
+        <video src="https://rr4---sn-5hne6n6e.googlevideo.com/videoplayback?expire=1707692509&ei=ff3IZdSnJOj_7OsPhN2I0Ac&ip=180.76.13.11&id=o-ANC7d3obqbJvjoldnmy5ONq0R5wopaStvX84NLLDCuNm&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&vprv=1&svpuc=1&mime=video%2Fmp4&cnr=14&ratebypass=yes&dur=138.692&lmt=1686300313984620&fexp=24007246&c=ANDROID&txp=6219224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cvprv%2Csvpuc%2Cmime%2Ccnr%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRQIgfcve4zXKGgNmzIpKoyQZ35Cbw9O7RHQzytus6KhfFCUCIQCC6_IUl94FhgyU_X-PalV7QRKo59cfIAFMRw7CdMEgnw%3D%3D&redirect_counter=1&cm2rm=sn-i3bde7z&req_id=d962bfd51ec6a3ee&cms_redirect=yes&mh=dM&mip=92.191.218.197&mm=34&mn=sn-5hne6n6e&ms=ltu&mt=1707670856&mv=m&mvi=4&pl=22&lsparams=mh,mip,mm,mn,ms,mv,mvi,pl&lsig=APTiJQcwRQIhAIQckvLRBOcsLk8BHxpg51CJYx3NLOKH-vi69QInim1_AiA5cAYe-k2eMUVcGoN3AFPlSSgwG4LzPhpochsY_o2msg%3D%3D" controls></video>       
+
+    </p>
+</div>
+</section>
+
+<section id = "contacto">
+    <p>En caso de necesitar más información detallada sobre nuestros servicios déjanos tu información personal y nos pondremos en contacto contigo</p>
+    <fieldset>
+        <legend>Datos personales</legend>
+        <p>        
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="name"  minlength="4" maxlength="20" size="45">
+        </p>
+        <p>
+        <label for="telefono">Teléfono:</label><br>
+        <input type="text" id="telefono" name="telefono"  minlength="9" maxlength="12" size="12">  </p>
+        <p>
+        <label for="mail">Email:</label><br>
+            <input type="email" id="mail" required name="mail" size="35"> 
+        </p>
+        </fieldset>
+        <fieldset>
+            <p>
+                <label for="msj">mensaje a enviar:</label><br>
+                <textarea id="story" name="intrucciones" rows="10" cols="33">Introduzca su mensaje</textarea>
+                </p>
+                </fieldset>
+                <fieldset>
+                    <!-- Botón de enviar -->
+                    <button type="submit">Enviar</button>
+                    
+                    <!-- Botón de limpiar -->
+                    <button type="reset">Limpiar</button>
+                    </fieldset>
+
+            <p>Cualquier información que necesite consultar presencialmente podrá acudir a las oficinas de ICAI:</p>
+            <p>
+                
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.043120802949!2d-3.71490468429349!3d40.430044062753005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4228662ebd8eeb%3A0xd7c09eaa5e0b0c59!2sEscuela%20T%C3%A9cnica%20Superior%20de%20Ingenier%C3%ADa%20(ICAI)!5e0!3m2!1ses!2ses!4v1673823476079!5m2!1ses!2ses
+                " ></iframe>
+                </p>       
+</section>
+
+
+
+</body>
+</html>
+    </div>
+</body>
+</html>

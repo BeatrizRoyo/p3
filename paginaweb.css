@@ -1,0 +1,433 @@
+.contenedor {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    background: rgb(177, 139, 175);
+    padding: 0;
+
+  }
+  .contenedor li {
+    flex: 4 1 0;
+  }
+  .contenedor li:first-child {
+  }
+  .contenedor a {
+    font: 9px sans-serif;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding: 9px;
+    color: white;
+    user-select: none;
+  }
+  .contenedor li:hover {
+    background: rgb(183, 174, 180);
+  }
+  .titulo {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: rgb(16, 14, 14);
+    padding: 20px;
+    text-align: center;
+}
+.subtitulo{
+    text-align:center 
+}
+
+  
+  
+/* Estilos para mostrar la tabla de festivales */
+#Filtro:target{
+    display: block;
+}
+
+#Inicio:target, #tablaFestis:target {
+    display: block;
+  }
+#Inicio, #tablaFestis {
+  display: none;
+  padding: 20px;
+
+}
+
+#tablaFestis {
+    margin: 0 auto;
+    border-collapse:collapse;
+    width: 80%;
+    align-items: center;
+
+}
+#tablaFestis th, #tablaFestis td {
+    border: 1px solid #ddd; /* Borde de las celdas */
+    padding: 10px; /* Espacio interno dentro de las celdas */
+    text-align: center; /* Alineación del texto */
+  }
+
+  
+#tablaFestis th {
+    background-color: #f2f2f2; /* Color de fondo del encabezado */
+  }
+input:user-invalid {
+  border: 2px solid red;
+  box-shadow: 0 0 2px red;
+  outline: red;
+}
+input[type="text"]:valid {
+  border: 2px solid rgb(228, 209, 230);
+  box-shadow: 0 0 2px rgb(234, 212, 228);
+  outline: rgb(203, 171, 198);
+}
+
+blockquote{
+    font-family: ro;
+    font: size 22px;
+    background-color: rgb(143, 212, 254);
+    margin: 19px;
+    padding: 20px;
+    border-radius: 19px;
+    border-left: 5px solid #cef3f5;
+
+}
+blockquote::first-letter, blockquote::after {
+    font-size: 29px;
+    font-weight: 800;
+  }
+  
+  #piramide {
+    text-align: center;
+  }
+  
+  #e1 {
+    background-color: rgb(105, 101, 109);
+    color: white;
+    padding: 20px;
+    width: 100px;
+    display: inline-block;
+  }
+  
+  #e2 {
+    background-color: rgb(105, 101, 109);
+    color: white;
+    padding: 15px;
+    width: 80px;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  #e3 {
+    background-color: rgb(105, 101, 109);
+    color: white;
+    padding: 10px;
+    width: 60px;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  #e4 {
+    background-color: rgb(105, 101, 109);
+    color: white;
+    padding: 5px;
+    width: 80px;
+    display: inline-block;
+    margin-top: 20px;
+  }
+
+ 
+
+  #Filtro {
+    display: none;
+    padding: 20px;
+    flex-wrap: nowrap; /* Evita que se redistribuyan los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+
+
+}
+
+.filtro-container {
+    margin-bottom: 20px;
+}
+
+.tablitas{
+    display:flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    border-collapse:collapse;
+    width: 80%;
+    align-items: center;
+}
+.tablitas div{
+    margin-rigth: 10px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: px;
+    font-weight: bold;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: 3px solid #cf96c3;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #e1d3e6; /* Color de fondo para el menú desplegable */
+
+}
+
+/* Estilos adicionales para cuando el select está en foco */
+select:focus {
+    outline: none;
+    border-color: #e52ff6;
+    box-shadow: 0 0 5px rgba(188, 107, 208, 0.5);
+}
+
+.resultado{
+    font-size:12px;
+}
+
+.tipos2{
+    display:block;
+    align-items: center;
+}
+.tipos2 div{
+
+margin-right: 10px;
+border-radius: 5px;
+
+
+}
+/* Estilos para la tabla */
+#tipos2 {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #tipos2 th,
+  #tipos2 td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  #tipos2 th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Estilos para los select */
+  .tablitas select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para los resultados de la búsqueda */
+  .resultado {
+    margin-top: 20px;
+  }
+  
+  .resultado h2 {
+    color: #333;
+  }
+  
+  .resultado ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .resultado ul li {
+    margin-bottom: 5px;
+  }
+  
+
+#contacto:target{
+    display:block;
+}
+#contacto{
+    display:none;
+    padding: 20px;;
+}
+
+.image-container{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+
+
+.image-container img{
+    width:70px;
+    margin-right:10px;
+}
+
+.aftermovies{
+    font-family: ro;
+    font: size 16px;
+    margin: 19px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width: 220px;
+    margin: auto;
+    max-width:50 ;
+
+
+}
+
+.videsoafters{
+    font-family: 'Times New Roman', Times, serif;
+    font: size 16px;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.videosafters{
+    display:flex;
+    justify-content:space-between;
+    flex:1;
+    text-align:center;
+   
+}
+
+.videosafters video{
+    max-width:100%;
+}
+
+.videosafters p {
+    width: 23%; /* Ancho de cada video */
+    margin: 0; /* Elimina el margen predeterminado */
+  }
+
+  .madcool{
+    border: 10px solid rgb(239, 192, 205);
+    width: 250px;
+    text-align: center;
+    font-family: sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    font: size 16px;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .bombastic{
+    border: 10px solid rgb(221, 186, 242);
+    width: 250px;
+    text-align: center;
+    font-family: sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    font: size 16px;
+    align-items: center;
+    justify-content: center;
+}
+.bbklive{
+    font-family: 'Times New Roman', Times, serif;
+    font: size 16px;
+    align-items: center;
+    justify-content: center;
+    border: 10px solid rgb(205, 182, 255);
+    width: 250px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.circoloco{
+    font-family: 'Times New Roman', Times, serif;
+    font: size 16px;
+    align-items: center;
+    justify-content: center;
+    border: 10px solid hsl(186, 61%, 73%);
+    width: 250px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+  #contacto {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: 0 auto;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type="submit"],
+button[type="reset"] {
+    background-color: #d3bbd6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button[type="submit"]:hover,
+button[type="reset"]:hover {
+    background-color: #9bc2d2;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fce7e7; 
+}
+
+
+.textorule {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  margin-bottom: 20px; 
+}
+
+.imgsorteo {
+  display: flex;
+  justify-content: center;
+}
+
+.imgsorteo img {
+  width: 100px; 
+  border-radius: 50%; 
+  border: 2px solid #ccc; 
+  padding: 5px; 
+}
+
+
+
+
+/* Estilos para el video */
+
+
+
+
+
+
+
+  
+  

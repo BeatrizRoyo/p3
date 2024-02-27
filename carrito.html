@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compra</title>
+    <link rel="stylesheet" href="carrito.css">
+</head>
+<body>
+    <h1>Carrito de Compra</h1>
+    <div class="container">
+        <div class="box">
+            <img src="https://madcoolfestival.es/2023-app/public/uploads/ticketGroupIcons/c6b87b105c99cc97.png" alt="ticket1">
+            <p>Abono 4 días - €150</p>
+            <input type="checkbox" id="abono" name="abono" value="150">
+            <label for="abono">Seleccionar</label>
+        </div>
+        <div class="box">
+            <img src="https://madcoolfestival.es/2023-app/public/uploads/ticketGroupIcons/f51b3338a8dd1561.png" alt="ticket2">
+            <p>Entradas de día - €100</p>
+            <input type="checkbox" id="entradas" name="entradas" value="100">
+            <label for="entradas">Seleccionar</label>
+        </div>
+        <div class="box">
+            <img src="https://madcoolfestival.es/2023-app/public/uploads/ticketGroupIcons/8ffddd96a8fe1aa1.png" alt="ticket3">
+            <p>VIP ticket - €250</p>
+            <input type="checkbox" id="vip" name="vip" value="250">
+            <label for="vip">Seleccionar</label>
+        </div>
+        <div class="box">
+            <img src="https://madcoolfestival.es/2023-app/public/uploads/ticketGroupIcons/332c1ce67a4e73fb.png" alt="ticket4">
+            <p>Pack Lover - €80</p>
+            <input type="checkbox" id="pack" name="pack" value="80">
+            <label for="pack">Seleccionar</label>
+        </div>
+        <div class="box">
+            <img src="https://madcoolfestival.es/2023-app/public/uploads/ticketGroupIcons/188bfbe2e79ed9b0.png" alt="ticket5">
+            <p>Santander Pack - €120</p>
+            <input type="checkbox" id="santander" name="santander" value="120">
+            <label for="santander">Seleccionar</label>
+        </div>
+    </div>
+
+    <div class="cart">
+        <h2>Carrito</h2>
+        <ul id="cart-items">
+            <!-- Aquí se mostrarán los elementos del carrito -->
+        </ul>
+        <div id="total">Total: €0</div>
+    </div>
+
+    <h3>¡Ya queda menos para la mejor experiencia de tu vida!</h3>
+</body>
+</html>

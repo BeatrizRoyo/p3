@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+ul{
+    background-color: hsl(180, 12%, 79%);
+
+}
+
+li{
+    align-items: center;
+    background-color: rgb(109, 142, 131);
+}
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.container{
+    text-align: center;
+}
+
+
+/* Estilos para el texto general */
+body, header, main, footer, section {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para el texto del encabezado */
+header h1 {
+    font-size: 36px; /* Tamaño grande para el título principal */
+}
+
+/* Estilos para el texto de las secciones */
+section h2 {
+    font-size: 24px; /* Tamaño grande para los títulos de sección */
+    color: #333; /* Color de texto oscuro */
+}
+
+/* Estilos para el texto del mensaje de respuestas correctas */
+#respuestas-correctas, #msj {
+    font-size: 18px; /* Tamaño medio para el texto */
+    color: #666; /* Color de texto gris */
+}
+
+/* Estilos para el botón del buscador */
+#btn2api {
+    font-size: 16px; /* Tamaño medio para el texto del botón */
+    color: #fff; /* Color de texto blanco */
+    background-color: #4CAF50; /* Color de fondo verde */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espaciado interior */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor al pasar el ratón */
+}
+
+/* Estilos para el botón del buscador al pasar el ratón */
+#btn2api:hover {
+    background-color: #45a049; /* Cambiar color de fondo al pasar el ratón */
+}

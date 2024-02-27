@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preguntas y Respuestas - Instrucciones</title>
+    <link rel="stylesheet" href="preguntas.css">
+</head>
+<body>
+    <header>
+        <h1>Preguntas y Respuestas</h1>
+    </header>
+    <main>
+        <section id="instructions-section">
+            <h2>Instrucciones</h2>
+            <p>Para poder participar en este sorteo, tendrás que contestar correctamente a un 30% de las preguntas.</p>
+            <p>Una vez pulses una opción, ya no podrás volver atrás. En caso de respuesta incorrecta, no podrás saber la correcta y procederán a ponerse todas las opciones en rojo.</p>
+            <button id="btn-preguntas">¡Estoy Preparado!</button>
+        </section>
+        
+        <section id="questions-section" style="display: none;">
+            <p>Respuestas Correctas: <span id="correct-answers-counter">0</span></p>  
+            <!-- Aquí se mostrarán las preguntas y respuestas -->
+
+        </section>
+        <section id ="after-qs" style = "display:none">
+            <button id ="sgnt"> Siguiente </button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Juego de Preguntas y Respuestas by Beatriz Royo </p>
+    </footer>
+
+    <script src="preguntas.js"></script>
+</body>
+</html>

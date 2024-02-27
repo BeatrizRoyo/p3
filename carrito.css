@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+h1{
+    color: rgb(255, 159, 253);
+}
+
+.cart {
+    width: 150px;
+    height: 20px; /* Ajusta según sea necesario */
+    background-color: #f2f2f2;
+    text-align: center;
+    margin-bottom: 20px; /* Espacio entre el carrito y la última caja */
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px; /* Reducido el margen superior */
+}
+
+.box {
+    width: 150px;
+    text-align: center;
+    margin-bottom: 20px; /* Reducido el espacio entre las cajas */
+}
+
+.box img {
+    width: 80%; /* Cambiado el ancho de la imagen */
+    height: auto; /* Manteniendo la proporción */
+    transition: filter 0.5s; /* Agregado efecto de transición */
+}
+
+.box:hover img {
+    filter: brightness(50%); /* Reduce el brillo */
+    background-color: black; /* Cambia el fondo a negro */
+}
+
+.cart {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-left: 1px solid #ccc;
+    width: 200px;
+}
+
+.cart h2 {
+    margin-top: 0;
+}
+
+#cart-items {
+    list-style-type: none;
+    padding: 0;
+}
+
+#cart-items li {
+    margin-bottom: 10px;
+}
+
+#total {
+    font-weight: bold;
+}
+
+h3{
+    text-align: center;
+    color: rgb(255, 159, 253);
+}

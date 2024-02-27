@@ -1,0 +1,115 @@
+/* Estilos base */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.titulo, .subtitulo {
+    text-align: center;
+    color: #333;
+}
+
+.contenedor {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor li {
+    width: 25%; /* Cada elemento ocupa un cuarto del ancho de la pantalla */
+    float: left;
+    box-sizing: border-box; /* Incluye padding y borde en el ancho */
+    padding: 10px;
+}
+
+.contenedor li a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    background-color: #fff; /* Fondo blanco */
+    padding: 20px;
+    border: 1px solid #ccc; /* Borde gris */
+    border-radius: 5px; /* Bordes redondeados */
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.contenedor li a:hover {
+    background-color: #ff8c94; /* Color rosa palo al pasar el cursor */
+    color: #fff; /* Texto blanco */
+}
+
+/* Estilos del menú */
+#menu {
+    position: fixed;
+    top: 0;
+    left: -100%; /* El menú está inicialmente fuera de la pantalla */
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo semitransparente */
+    transition: left 0.3s ease; /* Transición suave para el desplazamiento */
+    z-index: 999; /* Asegura que el menú esté por encima de otros elementos */
+}
+
+/* Cuando el menú es activado por la pseudo-clase :target */
+#menu:target {
+    left: 0; /* Muestra el menú al desplazarlo desde la izquierda */
+}
+
+.menu-link {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #cba0a0;
+    text-decoration: none;
+    background-color: #ff8c94; /* Color rosa palo */
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.menu-link:hover {
+    background-color: #ff6384; /* Color rosa palo más oscuro */
+}
+/* Estilos para el video */
+/* Estilos para el título */
+.titulo {
+    position: fixed;
+    top: 20px; /* Ajusta la distancia desde la parte superior */
+    left: 20px; /* Ajusta la distancia desde el borde izquierdo */
+    z-index: 9999; /* Asegura que esté por encima del video */
+    color: white; /* Color del texto */
+  }
+  
+  /* Estilos para el video */
+  .madcoolafter {
+    position: fixed;
+    top: 100px; /* Altura del menú de navegación */
+    left: 0;
+    width: 100%;
+    height: calc(100% - 100px); /* Resta la altura del menú de navegación */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2; /* Fondo gris claro */
+    z-index: 1; /* Ajusta el z-index para que el video esté detrás del menú */
+  }
+  
+  .madcoolafter video {
+    width: auto; /* Ajusta el ancho del video automáticamente */
+    height: auto; /* Ajusta la altura del video automáticamente */
+    max-width: 100%; /* Establece el ancho máximo del video al 100% */
+    max-height: 100%; /* Establece la altura máxima del video al 100% */
+    object-fit: contain; /* Ajusta el tamaño del video para que quepa en el contenedor */
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Color de fondo del menú */
+    z-index: 9999; /* Ajusta el z-index para que el menú esté por encima del video */
+  }  
